@@ -1,0 +1,70 @@
+:root{
+    --primary-color: #1d5888;
+    --secondary-color: #ff993b;
+    --dark-color: #292929;
+    --white-color: #e7e7e7;
+}
+body{
+    color:var(--dark-color);
+}
+nav{
+    background-color: var(--dark-color);
+}
+nav .logoName{
+    color: var(--secondary-color);
+    font-style: italic;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    background-color: var(--dark-color);
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--primary-color);
+}
+footer{
+    padding-right:1 rem;
+}
+footer .social>a{
+    color:var(--white-color);
+    opacity:0.75;
+}
+footer .social>a:hover{
+    color:var(--secondary-color);
+    opacity: 0.9;
+}
+footer .logoImg{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.bsIcon{
+    color:rgb(156, 10, 156);
+}
+.jsIcon{
+    color:rgb(194, 182, 17);
+}
+.html5Icon{
+    color:rgb(199, 63, 13);
+}
+.cssIcon{
+    color:rgb(5, 5, 175);
+}
+.checklist>li i{
+    color: #d8781f;
+}
+code[class*="language-"],
+    pre[class*="language-"] {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+.sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

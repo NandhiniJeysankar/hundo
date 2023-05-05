@@ -1,0 +1,2 @@
+# MinisiteJSTemplate
+JSTemplate
